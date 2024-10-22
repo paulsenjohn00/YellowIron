@@ -1,0 +1,159 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Light gray background */
+    margin: 0;
+    padding: 0;
+    color: #333333; /* Dark gray text */
+}
+
+/* Header */
+header {
+    background-color: #000000; /* Black background for the navbar */
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFC107; /* Yellow for the logo */
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header ul li {
+    margin-left: 20px;
+}
+
+header ul li a {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header ul li a:hover {
+    color: #FFC107; /* Yellow on hover */
+}
+
+/* Hero Section */
+.hero {
+    background-color: #FFC107; /* Bold yellow background for hero */
+    color: #333333; /* Dark gray text for contrast */
+    text-align: center;
+    padding: 60px 20px;
+    margin-bottom: 30px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Pricing Section */
+.pricing-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #ffffff; /* White background for pricing section */
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.pricing-card {
+    background-color: #fefefe; /* White background for pricing cards */
+    border: 2px solid #FFC107; /* Yellow border for consistency */
+    border-radius: 8px;
+    width: 300px;
+    margin: 0 20px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+    transition: transform 0.3s ease;
+}
+
+.pricing-card:hover {
+    transform: translateY(-10px); /* Lift on hover */
+}
+
+.pricing-card h2 {
+    font-size: 28px;
+    color: #000000; /* Black for plan names */
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 36px;
+    color: #FFC107; /* Yellow for price text */
+    margin-bottom: 20px;
+}
+
+.pricing-card ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pricing-card ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    color: #333333; /* Dark gray for feature text */
+}
+
+.pricing-card ul li:last-child {
+    border-bottom: none;
+}
+
+/* Buttons */
+.btn {
+    background-color: #000000; /* Black button */
+    color: white; /* White text */
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: #333333; /* Dark gray on hover */
+}
+
+/* Footer */
+.footer {
+    background-color: #333333; /* Dark gray footer */
+    color: #f4f4f9; /* Light gray text */
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #FFC107; /* Yellow links in footer */
+    margin: 0 10px;
+}
+
+.footer p {
+    font-size: 14px;
+}
